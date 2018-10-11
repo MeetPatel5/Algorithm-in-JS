@@ -25,4 +25,9 @@ console.clear();
 import { getMaxChar } from "./max-chars/max-chars";
 
 console.log(getMaxChar("Hello there, I am Meet"));
-// console.clear();
+console.clear();
+
+// 4. FizzBuzz problem
+import { fizzBuzz } from "./fizz-buzz/fizz-buzz";
+fizzBuzz(35);
+console.clear();
