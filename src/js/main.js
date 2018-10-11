@@ -31,3 +31,7 @@ console.clear();
 import { fizzBuzz } from "./fizz-buzz/fizz-buzz";
 fizzBuzz(35);
 console.clear();
+
+// 5. Array Chunk
+import { chunkArr } from "./array-chunking/array-chunking";
+console.log(chunkArr([1, 2, 3, 4, 5, 6, 7, 8], 3));
