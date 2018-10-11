@@ -20,3 +20,9 @@ import { checkPalindrome1, checkPalindrome2 } from "./palindromes/palindromes";
 console.log(checkPalindrome1("Saras"));
 console.log(checkPalindrome2("MALayAlaM"));
 console.clear();
+
+// 3. MaxChar problem
+import { getMaxChar } from "./max-chars/max-chars";
+
+console.log(getMaxChar("Hello there, I am Meet"));
+// console.clear();
