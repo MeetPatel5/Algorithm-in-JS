@@ -69,4 +69,8 @@ import { checkAnagram1, checkAnagram2 } from "./anagram/anagram";
 console.log(checkAnagram1("dff   ", " !ffD"));
 console.log(checkAnagram2("dff  ", " !fFD"));
 console.log(checkAnagram2("dff  ", " !DfD"));
-// console.clear();
+console.clear();
+
+// 9. Capitalization
+import { capitalizeStr } from "./string-capitalization/string-capitalization";
+console.log(capitalizeStr("Hi, there HOW yOu DOinG !!"));
