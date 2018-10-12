@@ -1,5 +1,6 @@
 export const makeObjWithCount = str => {
-  //  "sample is sample"
+
+  // make sure we loop over right thing !
   const charsObj = {};
   for (let char of str.toLowerCase()) {
     if (!charsObj[char]) {
