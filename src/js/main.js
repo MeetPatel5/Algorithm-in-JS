@@ -72,5 +72,9 @@ console.log(checkAnagram2("dff  ", " !DfD"));
 console.clear();
 
 // 9. Capitalization
-import { capitalizeStr } from "./string-capitalization/string-capitalization";
-console.log(capitalizeStr("Hi, there HOW yOu DOinG !!"));
+import {
+  capitalizeStr1,
+  capitalizeStr2
+} from "./string-capitalization/string-capitalization";
+console.log(capitalizeStr1("Hi, there HOW yOu DOinG !!"));
+console.log(capitalizeStr2("Hi, there HOW yOu DOinG !!"));
