@@ -10,7 +10,7 @@ export const sortByAsce = arr => {
   if (tempArr.length === 0) {
     return arr.sort();
   } else {
-    return new Error(
+    throw new Error(
       "sortByAsce function can only apply to array of string values"
     );
   }
@@ -27,7 +27,7 @@ export const sortByDesc = arr => {
   if (tempArr.length === 0) {
     return arr.sort().reverse();
   } else {
-    return new Error(
+    throw new Error(
       "sortByDesc function can only apply to array of string values"
     );
   }
@@ -44,7 +44,7 @@ export const sortByGreaterValue = arr => {
   if (tempArr.length === 0) {
     return arr.sort((a, b) => b - a);
   } else {
-    return new Error(
+    throw new Error(
       "sortByGreaterValue function can only apply to array of number values"
     );
   }
@@ -61,7 +61,7 @@ export const sortBySmallerValue = arr => {
   if (tempArr.length === 0) {
     return arr.sort((a, b) => a - b);
   } else {
-    return new Error(
+    throw new Error(
       "sortBySmallerValue function can only apply to array of number values"
     );
   }

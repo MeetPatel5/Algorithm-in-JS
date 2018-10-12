@@ -1,15 +1,4 @@
-export const makeObjWithCount = str => {
-  //  "sample is sample"
-  const charsObj = {};
-  for (let char of str.toLowerCase()) {
-    if (!charsObj[char]) {
-      charsObj[char] = 1;
-    } else {
-      charsObj[char] = charsObj[char] + 1;
-    }
-  }
-  return charsObj;
-};
+import { makeObjWithCount } from "../helper/helper";
 
 export const getMaxChar = str => {
   const charsObjWithCount = makeObjWithCount(str);

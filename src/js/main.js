@@ -62,3 +62,9 @@ console.log(sortByDesc(["hi", "bye", "new", "old", "whatever"]));
 // );  =>  will throw an err as there are non number type of  ele are presents
 console.log(sortByGreaterValue([100, 25, 4165, 12, 6565, 654, 4458, 66, 448]));
 console.log(sortBySmallerValue([564, 55, 654, 4563, 31, 25, 45, 6541, 54165]));
+console.clear();
+
+// 8. Check Anagram
+import { checkAnagram1 } from "./anagram/anagram";
+console.log(checkAnagram1("dff   ", " !ffD"));
+console.clear();
