@@ -21,4 +21,11 @@ export const makeCleanStrObjWithCount = str => {
   return cleanedObjWithCount;
 };
 
-const makeCleanString = str => {};
+export const makeCleanString = str => {
+  return str
+    .replace(/[^\w]/g, "")
+    .toLowerCase()
+    .split("")
+    .sort()
+    .join("");
+};

@@ -65,6 +65,8 @@ console.log(sortBySmallerValue([564, 55, 654, 4563, 31, 25, 45, 6541, 54165]));
 console.clear();
 
 // 8. Check Anagram
-import { checkAnagram1 } from "./anagram/anagram";
+import { checkAnagram1, checkAnagram2 } from "./anagram/anagram";
 console.log(checkAnagram1("dff   ", " !ffD"));
-console.clear();
+console.log(checkAnagram2("dff  ", " !fFD"));
+console.log(checkAnagram2("dff  ", " !DfD"));
+// console.clear();
